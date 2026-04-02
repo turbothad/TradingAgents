@@ -34,6 +34,9 @@ dependencies = [
 
 [project.scripts]
 tradingagents = "cli.main:app"
+ta-create-portfolio = "tradingagents.api.create_portfolio:main"
+ta-rebalance-portfolio = "tradingagents.api.rebalance_portfolio:main"
+ta-explain-portfolio = "tradingagents.api.explain_portfolio:main"
 
 [tool.setuptools.packages.find]
 include = ["tradingagents*", "cli*"]

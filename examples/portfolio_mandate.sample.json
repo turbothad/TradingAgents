@@ -1,0 +1,19 @@
+{
+  "starting_cash": "10000",
+  "risk_profile": "balanced",
+  "time_horizon_days": 365,
+  "max_positions": 5,
+  "min_positions": 3,
+  "allowed_asset_types": ["stock", "etf"],
+  "allow_fractional": true,
+  "allow_short": false,
+  "allow_margin": false,
+  "max_position_weight": "0.25",
+  "max_sector_weight": "0.40",
+  "max_turnover_per_rebalance": "0.25",
+  "min_avg_dollar_volume": "1000000",
+  "rebalance_cadence": "weekly",
+  "themes": ["quality", "megacap"],
+  "watchwords": ["earnings", "guidance"],
+  "benchmark_symbols": ["SPY"]
+}

@@ -3,6 +3,7 @@ import os
 DEFAULT_CONFIG = {
     "project_dir": os.path.abspath(os.path.join(os.path.dirname(__file__), ".")),
     "results_dir": os.getenv("TRADINGAGENTS_RESULTS_DIR", "./results"),
+    "portfolio_results_dir": os.getenv("TRADINGAGENTS_PORTFOLIO_RESULTS_DIR", "./results/portfolio_runs"),
     "data_cache_dir": os.path.join(
         os.path.abspath(os.path.join(os.path.dirname(__file__), ".")),
         "dataflows/data_cache",
@@ -35,4 +36,9 @@ DEFAULT_CONFIG = {
     "tool_vendors": {
         # Example: "get_stock_data": "alpha_vantage",  # Override category default
     },
+    # Portfolio / broker settings
+    "portfolio_default_benchmark": ["SPY"],
+    "paper_trading_enabled": True,
+    "broker_dry_run": True,
+    "alpaca_base_url": os.getenv("ALPACA_BASE_URL", "https://paper-api.alpaca.markets"),
 }

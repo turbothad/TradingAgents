@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "AAPL",
+    "target_weight": "0.25",
+    "asset_type": "stock",
+    "sector": "Technology",
+    "thesis_summary": "Large-cap quality compounder with strong cash generation.",
+    "machine_rationale": {
+      "source": "sample"
+    },
+    "price": "180",
+    "avg_dollar_volume": "8000000000"
+  },
+  {
+    "symbol": "META",
+    "target_weight": "0.25",
+    "asset_type": "stock",
+    "sector": "Communication Services",
+    "thesis_summary": "Ad platform cash flow with durable user engagement.",
+    "machine_rationale": {
+      "source": "sample"
+    },
+    "price": "500",
+    "avg_dollar_volume": "6000000000"
+  },
+  {
+    "symbol": "XLF",
+    "target_weight": "0.25",
+    "asset_type": "etf",
+    "sector": "Financials",
+    "thesis_summary": "Diversified financial-sector exposure.",
+    "machine_rationale": {
+      "source": "sample"
+    },
+    "price": "45",
+    "avg_dollar_volume": "900000000"
+  },
+  {
+    "symbol": "XLE",
+    "target_weight": "0.25",
+    "asset_type": "etf",
+    "sector": "Energy",
+    "thesis_summary": "Broad energy-sector exposure with liquid execution.",
+    "machine_rationale": {
+      "source": "sample"
+    },
+    "price": "95",
+    "avg_dollar_volume": "1100000000"
+  }
+]
